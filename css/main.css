@@ -4,7 +4,21 @@ body {
       font-family: Arial; 
       background: purple;}
       
-h1  {}
+h1  {
+	color: red;
+	background: blue;
+}
 
+.css-statements{
+	border: 5px solid green;
+}
+.cat{
+	color: blue;
+}
+.css-uses{
+	border: 5px solid turquoise;
+}
 
-
+#dog{
+	color: orange;
+}
