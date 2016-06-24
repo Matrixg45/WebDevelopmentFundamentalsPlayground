@@ -256,4 +256,6 @@ p.big {
   border-right: 26px solid transparent;
   border-bottom: 60px solid green;
 }
-
+.glyphicon.glyphicon-asterisk{
+ font-size: 400px;
+}
