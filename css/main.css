@@ -45,7 +45,7 @@ p.big {
 	overflow: hidden;
 }
 .nav li a{
-	display: inline-block;
+
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
@@ -174,3 +174,86 @@ p.big {
 #my-age {
   color: gold;
 }
+#fadeInHelloWorld {
+  width:100px;
+  height:20px;
+  display:none;
+  background-color:red;
+}
+/* Shapes */
+#circle{
+  width: 100px;
+  height: 100px;
+  border: 2px solid purple;
+  border-radius: 50px;
+  position: absolute;
+  margin:20px
+}
+#square{
+  width:100px;
+  height:100px;
+  border: 2px solid green;
+  border-radius: 0px;
+  margin: 20px 0px 0px 150px;
+  position:absolute;
+}
+#color-square{
+  width:100px;
+  height:100px;
+ border-top:2px solid purple;
+  border-left: 2px solid green;
+  border-bottom: 2px solid magenta;
+  border-right: 2px solid red;
+  position:absolute;
+  margin:20px 0px 0px 300px;
+}
+#triangle-square{
+  width:0px;
+  height:0px;
+  border-top:50px solid purple;
+  border-left: 50px solid green;
+  border-bottom: 50px solid blue;
+  border-right: 50px solid red;
+  position:absolute;
+  margin:20px 0px 0px 450px;
+  
+}
+#triangle{
+   border-top:50px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 50px solid blue;
+  border-right: 50px solid transparent;
+  position:absolute;
+  margin:20px 0px 0px 600px;  
+}
+#triangles{
+  width:0px;
+  height:0px;
+   border-top:0px solid transparent;
+  border-left: 50px solid transparent;
+  border-bottom: 100px solid green;
+  border-right: 50px solid transparent;
+  position:absolute;
+  margin:20px 0px 0px 750px;
+}
+.triangle-border {
+  width: 0;
+  height: 0;
+  position: absolute;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid purple;
+  margin: 20px 0px 0px 900px;
+}
+
+.inner-triangle {
+  top: 24px;
+  right: 26px;
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 26px solid transparent;
+  border-right: 26px solid transparent;
+  border-bottom: 60px solid green;
+}
+
